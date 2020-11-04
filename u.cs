@@ -59,7 +59,7 @@ public static class u
     /// <summary>
     /// Adds all the comma separated values to the debug text field. Separates with spaces. Uses ToString(), String Builder and DataManager.instance.DebugText.
     /// </summary>
-    /// <param name="any">Any value to output to Debug console</param>
+    /// <param name="any">Any value to output to Debug text field</param>
     public static void debug(params object[] log){
 
         StringBuilder str = new StringBuilder();
